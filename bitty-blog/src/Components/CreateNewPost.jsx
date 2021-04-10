@@ -6,7 +6,7 @@ const CreateNewPost = props => {
             <h1>Create New Post</h1>
             <input type ="text" 
             onChange={props.savePostTitleToState}
-            placeHolder="title" 
+            placeholder="title" 
             size="39" 
             required>
 
@@ -15,7 +15,7 @@ const CreateNewPost = props => {
             <br />
             <textarea 
             onChange={props.savePostTitleToState}
-            placeHolder="contents" 
+            placeholder="contents" 
             rows="8" 
             cols="41" required>
             </textarea>
