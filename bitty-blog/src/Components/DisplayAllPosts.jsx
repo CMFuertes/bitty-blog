@@ -12,12 +12,15 @@ const DisplayAllPosts = () => {
         console.log(content)
     };
 
-    const savePost = () => {
+    const savePost = event => {
+        event.preventDefault();
         const id = Date.now();
-        setAllPost([...allPost, {title, content, id}]);
+        setAllPost([...allPosts, {title, content, id}]);
+        console.log(allPosts)
         setTitle("");
         setContent("");
-        console.log(allPost)
+        getTitle.current.value = "";
+        getContent.current.value = "";
     };
     return (
         <>
