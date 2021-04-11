@@ -15,6 +15,8 @@ const DisplayAllPosts = () => {
     const savePost = () => {
         const id = Date.now();
         setAllPost([...allPost, {title, content, id}]);
+        setTitle("");
+        setContent("");
         console.log(allPost)
     };
     return (
