@@ -24,6 +24,8 @@ const DisplayAllPosts = () => {
         <CreateNewPost 
         savePostTitleToState = {savePostTitleToState}
         savePostContentToState = {savePostContentToState}
+        getTitle={getTitle}
+        getContent={getContent}
         />
         </>
     )
