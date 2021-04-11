@@ -29,6 +29,7 @@ const DisplayAllPosts = () => {
         savePostContentToState = {savePostContentToState}
         getTitle={getTitle}
         getContent={getContent}
+        savePost={savePost}
         />
         </>
     )
