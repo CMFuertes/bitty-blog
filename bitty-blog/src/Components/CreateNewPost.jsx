@@ -2,7 +2,7 @@ import React from "react";
 const CreateNewPost = props => {
     return (
         <>
-    <form>
+    <form onSubmit={props.savePost}>
             <h1>Create New Post</h1>
             <input type ="text" 
             onChange={props.savePostTitleToState}
