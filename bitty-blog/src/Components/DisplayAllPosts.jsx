@@ -3,6 +3,11 @@ import CreateNewPost from './CreateNewPost'
 const DisplayAllPosts = () => {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
+    const [allPosts, setAllPosts] = useState([]);
+
+    const getTitle = useRef();
+    const getContent = useRef();
+    
     const savePostTitleToState = event => {
         setTitle(event.target.value);
         console.log(title)
