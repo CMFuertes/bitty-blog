@@ -8,7 +8,8 @@ const CreateNewPost = props => {
             onChange={props.savePostTitleToState}
             placeholder="title" 
             size="39" 
-            required>
+            required
+            ref={props.getTitle}>
 
             </input>
             <br />
@@ -17,7 +18,8 @@ const CreateNewPost = props => {
             onChange={props.savePostTitleToState}
             placeholder="contents" 
             rows="8" 
-            cols="41" required>
+            cols="41" required
+            ref={props.getContent}>
             </textarea>
             <br />
             <br />
