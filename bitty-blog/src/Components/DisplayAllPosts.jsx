@@ -7,14 +7,12 @@ const DisplayAllPosts = () => {
 
     const getTitle = useRef();
     const getContent = useRef();
-    
+
     const savePostTitleToState = event => {
         setTitle(event.target.value);
-        console.log(title)
     };
     const savePostContentToState = event => {
         setContent(event.target.value);
-        console.log(content)
     };
 
     const savePost = event => {
