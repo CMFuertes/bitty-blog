@@ -11,6 +11,12 @@ const DisplayAllPosts = () => {
         setContent(event.target.value);
         console.log(content)
     };
+
+    const savePost = () => {
+        const id = Date.now();
+        setAllPost([...allPost, {title, content, id}]);
+        console.log(allPost)
+    };
     return (
         <>
         <CreateNewPost 
