@@ -6,7 +6,8 @@ const DisplayAllPosts = () => {
     const [allPosts, setAllPosts] = useState([]);
     const [isCreateNewPost, setisCreateNewPost] = useState(false);
     const [isModifyPost, setIsModifyPost] = useState(false);
-
+    const [editPostId, setEditPostId] = useState("");
+    
     const getTitle = useRef();
     const getContent = useRef();
 
