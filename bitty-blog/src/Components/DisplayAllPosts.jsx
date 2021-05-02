@@ -1,5 +1,7 @@
 import React from 'React';
-import CreateNewPost from './CreateNewPost'
+import CreateNewPost from './CreateNewPost';
+import Post from "./Post";
+
 const DisplayAllPosts = () => {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
