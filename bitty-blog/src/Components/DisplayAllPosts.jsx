@@ -19,7 +19,9 @@ const DisplayAllPosts = () => {
     const toggleCreateNewPost =()=>{
         setIsCreateNewPost(!isCreateNewPost)
     }
-
+    const toggleModifyPostComponent = () => {
+        setIsModifyPost(!isModifyPost)
+    }
     const savePost = event => {
         event.preventDefault();
         const id = Date.now();
