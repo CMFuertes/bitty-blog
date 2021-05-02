@@ -29,7 +29,15 @@ h3 {
 .button-wrapper {
     text-align: center;
 }
-
+.edbutton{
+    text-transform: uppercase;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.edbutton:hover {
+    background-color: pink;
+    color: white;
+}
 
   @media screen and (max-width: 800px) {
     .post-container {
