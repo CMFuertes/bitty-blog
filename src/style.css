@@ -1,5 +1,6 @@
 body {background: rgb(213,236,194);
 background: linear-gradient(90deg, rgba(213,236,194,1) 0%, rgba(255,213,180,1) 35%, rgba(255,170,167,1) 100%);
+font-family: Verdana, sans-serif;
 }
 h1 {
     text-transform: uppercase;
