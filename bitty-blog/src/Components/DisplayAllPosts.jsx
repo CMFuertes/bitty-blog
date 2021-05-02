@@ -1,4 +1,4 @@
-import React from 'React';
+import React, { useState, useRef } from "react";
 import CreateNewPost from './CreateNewPost';
 import Post from "./Post";
 import ModifyPost from "./ModifyPost";
@@ -19,7 +19,7 @@ const DisplayAllPosts = () => {
     const savePostContentToState = event => {
         setContent(event.target.value);
     };
-    const toggleCreateNewPost =()=>{
+    const toggleCreateNewPost = () =>{
         setIsCreateNewPost(!isCreateNewPost)
     }
     const toggleModifyPostComponent = () => {
@@ -28,7 +28,7 @@ const DisplayAllPosts = () => {
     const editPost = id => {
         setEditPostId(id);
         console.log(id)
-        toggleModifyPostComponent ();
+        toggleModifyPostComponent();
     };
     const updatePost = (event) => {
         event.preventDefault();
@@ -50,8 +50,10 @@ const DisplayAllPosts = () => {
     const savePost = event => {
         event.preventDefault();
         const id = Date.now();
-        setAllPost([...allPosts, {title, content }]);
+        setAllPost([...allPosts, {title, content, id }]);
         console.log(allPosts);
+        setTitle("");
+        setContent("");
         getTitle.current.value = "";
         getContent.current.value = "";
         toggleCreateNewPost();
