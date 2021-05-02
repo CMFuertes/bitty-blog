@@ -1,7 +1,7 @@
 import React from 'React';
 import CreateNewPost from './CreateNewPost';
 import Post from "./Post";
-
+import ModifyPost from "./ModifyPost";
 const DisplayAllPosts = () => {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
