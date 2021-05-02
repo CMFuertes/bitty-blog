@@ -40,9 +40,10 @@ h3 {
 }
 .posts{
     text-align: center;
+    /* align-items: center; */
 }
 
-.create-posts{
+.create-post{
     text-align: center;
 }
   @media screen and (max-width: 800px) {
