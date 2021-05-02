@@ -1,12 +1,11 @@
 import React from "react"; 
 
-import CreateNewPost from './Components/CreateNewPost'
+import DisplayAllPosts from './Components/DisplayAllPosts'
 // import Posts from './Components/Post'
 const App = ( ) => {
   return (
     <div>
-      <CreateNewPost />
-      {/* <Posts /> */}
+      <DisplayAllPosts />
     </div>
   );
 };
