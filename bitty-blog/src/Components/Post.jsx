@@ -1,16 +1,15 @@
 import React from 'react';
 
-const Post = () => {
+const Post = ({ title, content, editPost, id }) => {
     return (
-        <>
+      <>
         <section>
-            <h3>{props.tile}</h3>
-            <p>{props.content}</p>
-            <button>Edit</button>
-            <button>Delete</button>
+          <h3>{title}</h3>
+          <p> {content}</p>
+          <button onClick={() => editPost(id)}>Edit</button>
+          <button>Delete</button>
         </section>
-        </>
-    )
-}
-
-export default Post 
+      </>
+    );
+  };
+  export default Post;
