@@ -1,7 +1,5 @@
-import React from "react"; 
-
+import React from "react";
 import DisplayAllPosts from './Components/DisplayAllPosts'
-// import Posts from './Components/Post'
 const App = ( ) => {
   return (
     <div>

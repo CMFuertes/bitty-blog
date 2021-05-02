@@ -93,7 +93,7 @@ else if (isModifyPost) {
   }
 return (
     <>
-    <h2>ALl Posts</h2>
+    <h2>ALL Posts</h2>
     {!allPosts.length ? (
         <div>
           <h3>There is nothing to see here!</h3>
@@ -114,7 +114,7 @@ return (
       )}
     <br/>
     <br/>
-    <button onClock={toggleCreateNewPost}>Create New</button>
+    <button onClick={toggleCreateNewPost}>Create New</button>
     </>
 )
 };
