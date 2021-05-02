@@ -14,18 +14,20 @@ const DisplayAllPosts = () => {
     const savePostContentToState = event => {
         setContent(event.target.value);
     };
+    const toggleCreateNewPost =()=>{
+        setIsCreateNewPost(!isCreateNewPost)
+    }
 
     const savePost = event => {
         event.preventDefault();
         const id = Date.now();
         setAllPost([...allPosts, {title, content, id}]);
-        console.log(allPosts)
-        setTitle("");
-        setContent("");
+        console.log(allPosts);
         getTitle.current.value = "";
         getContent.current.value = "";
     };
-    return (
+    if(isCreateNewPost){
+        return (
         <>
         <CreateNewPost 
         savePostTitleToState = {savePostTitleToState}
@@ -35,6 +37,15 @@ const DisplayAllPosts = () => {
         savePost={savePost}
         />
         </>
-    )
+    );
 }
+return (
+    <>
+    <h2>ALl Posts</h2>
+    <br/>
+    <br/>
+    <button onClock={toggleCreateNewPost}>Create New</button>
+    </>
+)
+};
 export default DisplayAllPosts
