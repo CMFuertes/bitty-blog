@@ -30,6 +30,12 @@ const DisplayAllPosts = () => {
         console.log(id)
         toggleModifyPostComponent();
     };
+    const deletePost = id => {
+        const modifiedPost = allPosts.filter(eachPost => {
+          return eachPost.id !== id;
+        });
+        setAllPosts(modifiedPost);
+      };
     const updatePost = (event) => {
         event.preventDefault();
         const updatedPost = allPosts.map(eachPost => {
