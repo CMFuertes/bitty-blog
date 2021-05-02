@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
-import CreateNewPost from './CreateNewPost';
+import CreateNewPost from "./CreateNewPost";
 import Post from "./Post";
 import ModifyPost from "./ModifyPost";
 const DisplayAllPosts = () => {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
     const [allPosts, setAllPosts] = useState([]);
-    const [isCreateNewPost, setisCreateNewPost] = useState(false);
+    const [isCreateNewPost, setIsCreateNewPost] = useState(false);
     const [isModifyPost, setIsModifyPost] = useState(false);
     const [editPostId, setEditPostId] = useState("");
 
@@ -56,7 +56,7 @@ const DisplayAllPosts = () => {
     const savePost = event => {
         event.preventDefault();
         const id = Date.now();
-        setAllPost([...allPosts, {title, content, id }]);
+        setAllPosts([...allPosts, {title, content, id }]);
         console.log(allPosts);
         setTitle("");
         setContent("");
