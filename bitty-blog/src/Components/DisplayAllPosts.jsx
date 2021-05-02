@@ -93,10 +93,10 @@ else if (isModifyPost) {
   }
 return (
     <>
-    <h2>ALL Posts</h2>
+    <h2>All Posts</h2>
     {!allPosts.length ? (
         <div>
-          <h3>There is nothing to see here!</h3>
+          <h3>You have no posts saved. <br/> Please click "create new" to start a new post.</h3>
         </div>
       ) : (
         allPosts.map(eachPost => {
