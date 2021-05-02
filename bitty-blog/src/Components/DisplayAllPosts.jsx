@@ -67,6 +67,20 @@ const DisplayAllPosts = () => {
         </>
     );
 }
+else if (isModifyPost) {
+    const post = allPosts.find(post => {
+      return post.id === editPostId;
+    });
+    return (
+      <ModifyPost
+        title={post.title}
+        content={post.content}
+        updatePost={updatePost}
+        savePostTitleToState={savePostTitleToState}
+        savePostContentToState={savePostContentToState}
+      />
+    );
+  }
 return (
     <>
     <h2>ALl Posts</h2>
