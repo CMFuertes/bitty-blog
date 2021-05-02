@@ -28,7 +28,23 @@ const DisplayAllPosts = () => {
         console.log(id)
         toggleModifyPostComponent ();
     };
-
+    const updatePost = (event) => {
+        event.preventDefault();
+        const updatedPost = allPosts.map(eachPost => {
+          if (eachPost.id === editPostId) {
+            console.log([eachPost.id, editPostId] )
+            return {
+              ...eachPost,
+              title: title || eachPost.title,
+              content: content || eachPost.content
+            };
+          }
+          console.log(eachPost)
+          return eachPost;
+        });
+        setAllPosts(updatedPost);
+        toggleModifyPostComponent();
+      };
     const savePost = event => {
         event.preventDefault();
         const id = Date.now();
