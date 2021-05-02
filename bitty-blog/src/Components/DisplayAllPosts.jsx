@@ -7,7 +7,7 @@ const DisplayAllPosts = () => {
     const [isCreateNewPost, setisCreateNewPost] = useState(false);
     const [isModifyPost, setIsModifyPost] = useState(false);
     const [editPostId, setEditPostId] = useState("");
-    
+
     const getTitle = useRef();
     const getContent = useRef();
 
@@ -23,6 +23,12 @@ const DisplayAllPosts = () => {
     const toggleModifyPostComponent = () => {
         setIsModifyPost(!isModifyPost)
     }
+    const editPost = id => {
+        setEditPostId(id);
+        console.log(id)
+        toggleModifyPostComponent ();
+    };
+
     const savePost = event => {
         event.preventDefault();
         const id = Date.now();
