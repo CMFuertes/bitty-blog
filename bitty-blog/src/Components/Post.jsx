@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Post = ({ title, content, editPost, id }) => {
+const Post = ({ title, content, editPost, id, deletePost }) => {
     return (
       <>
         <section>
