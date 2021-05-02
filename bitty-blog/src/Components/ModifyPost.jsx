@@ -1,5 +1,5 @@
 import React from "react";
-const ModifyPost = () => {
+const ModifyPost = (props) => {
     return (
         <>
             <form>
