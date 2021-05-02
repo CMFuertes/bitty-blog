@@ -3,7 +3,7 @@ import React from 'react';
 const Post = ({ title, content, editPost, id, deletePost }) => {
     return (
       <>
-        <section>
+        <section className="posts">
           <h3>{title}</h3>
           <p> {content}</p>
           <button onClick={() => editPost(id)} className="edbutton">Edit</button>

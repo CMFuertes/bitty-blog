@@ -38,7 +38,13 @@ h3 {
     background-color: pink;
     color: white;
 }
+.posts{
+    text-align: center;
+}
 
+.create-posts{
+    text-align: center;
+}
   @media screen and (max-width: 800px) {
     .post-container {
       width: 85%;
