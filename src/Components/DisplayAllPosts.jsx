@@ -115,7 +115,9 @@ return (
       )}
     <br/>
     <br/>
+    <section className="button-wrapper">
     <button onClick={toggleCreateNewPost} className="button">Create New</button>
+    </section>
     </>
 )
 };
