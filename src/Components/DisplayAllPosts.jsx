@@ -115,7 +115,7 @@ return (
       )}
     <br/>
     <br/>
-    <button onClick={toggleCreateNewPost}>Create New</button>
+    <button onClick={toggleCreateNewPost} className="button">Create New</button>
     </>
 )
 };
