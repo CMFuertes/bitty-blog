@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Bitty Blog ![NPM](https://img.shields.io/npm/l/sta)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table Of Contents 
 
-In the project directory, you can run:
+1) [Introduction](#user) 
 
-### `yarn start`
+2) [Description](#description)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3) [Installation](#installation)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4) [Usage](#usage)
 
-### `yarn test`
+5) [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6) [Contributing](#contributing)
 
-### `yarn build`
+7) [Tests](#tests)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## User
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CMFuertes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Email
 
-### `yarn eject`
+cristhal.fuertes@gmail.com
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Repository Name
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bitty-blog
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Repo: https://github.com/CMFuertes/bitty-blog
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Description
 
-## Learn More
+A blog app made using React Hook. Users can create, read, edit and delete posts. All done so without making any API requests. Project was done to gain a better understanding of React Hooks. It has a very simple appearance and user interface, hence the name "Bitty Blog."
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+Make sure React is installed as well as the latest version of Node.js 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
+Use this app as a simple blog for yourself. 
 
-### Analyzing the Bundle Size
+## Tests
+Use "npm start" to run the app and keep an eye out for any errors that may cause it to not work. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
+Feel free to clone and make adjustments and send me a merge request. 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+MIT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![GitHub](https://img.shields.io/github/license/CMFuertes/bitty-blog)
