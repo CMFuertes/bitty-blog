@@ -4,9 +4,9 @@ const Post = () => {
     return (
         <>
         <section>
-            <h3>Post title will appear here</h3>
-            <p>Post contents will appear here</p>
-            <button>Edut</button>
+            <h3>{props.tile}</h3>
+            <p>{props.content}</p>
+            <button>Edit</button>
             <button>Delete</button>
         </section>
         </>
