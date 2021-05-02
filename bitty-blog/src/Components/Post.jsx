@@ -7,7 +7,7 @@ const Post = ({ title, content, editPost, id }) => {
           <h3>{title}</h3>
           <p> {content}</p>
           <button onClick={() => editPost(id)}>Edit</button>
-          <button>Delete</button>
+          <button onClick={() => deletePost(id)}>Delete</button>
         </section>
       </>
     );
