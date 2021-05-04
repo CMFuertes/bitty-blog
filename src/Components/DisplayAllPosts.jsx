@@ -2,8 +2,15 @@ import React, { useState, useRef } from "react";
 import CreateNewPost from "./CreateNewPost";
 import Post from "./Post";
 import ModifyPost from "./ModifyPost";
-import { fadeInDown } from "react-animations"; 
+import { fadeInDown } from 'react-animations'; 
 import Radium, { StyleRoot } from 'radium'; 
+
+const styles = {
+  fadeInDown: {
+    animation: 'x 1.5s',
+    animationName: Radium.keyframes(fadeInDown, 'fadeInDown')
+  }
+}
 
 
 const DisplayAllPosts = () => {
@@ -100,7 +107,7 @@ return (
     <h2>Bitty Blog</h2>
     {!allPosts.length ? (
         <div>
-          <h1>No Posts Found.</h1>
+          <StyleRoot><h1 style={styles.fadeInDown}>No Posts Found.</h1></StyleRoot>
           <h3>Please click "create new" to start a new post.</h3>
         </div>
       ) : (
