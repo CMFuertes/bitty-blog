@@ -33,7 +33,9 @@ Repo: https://github.com/CMFuertes/bitty-blog
 
 ## Description
 
-A blog app made using React Hook. Users can create, read, edit and delete posts. All done so without making any API requests. Project was done to gain a better understanding of React Hooks. It has a very simple appearance and user interface, hence the name "Bitty Blog."
+A blog app made using React Hook. Users can create, read, edit and delete posts. All done so without making any API requests. Project was done to gain a better understanding of React Hooks. It has a very simple appearance and user interface, hence the name "Bitty Blog." Below is a demo. 
+
+![gif](https://github.com/CMFuertes/bitty-blog/blob/main/GIF/BittyBlogDemo.gif)
 
 
 ## Installation
