@@ -1,7 +1,8 @@
 import React from "react";
 const ModifyPost = (props) => {
     return (
-        <>
+        <>    
+        <section className="create-post">
             <form>
                 <h1>Modify Post</h1>        <input
           defaultValue={props.title}
@@ -21,8 +22,9 @@ const ModifyPost = (props) => {
         ></textarea>
         <br />
         <br />
-        <button onClick ={props.updatePost}>Update Post</button>
+        <button onClick ={props.updatePost} className="edbutton">Update Post</button>
       </form>
+      </section>
     </>
   );
 };

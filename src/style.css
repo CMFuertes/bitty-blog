@@ -52,6 +52,9 @@ h3 {
 .create-post{
     text-align: center;
 }
+.textarea{
+    text-align: center;
+}
   @media screen and (max-width: 800px) {
     .post-container {
       width: 85%;
