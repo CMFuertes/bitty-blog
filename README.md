@@ -40,10 +40,10 @@ A blog app made using React Hook. Users can create, read, edit and delete posts.
 
 ## Installation
 
-Make sure React is installed as well as the latest version of Node.js 
+Make sure React is installed as well as the latest version of Node.js. App also uses react.animatios and Radium to run the animation in the beginning. 
 
 ## Usage
-Use this app as a simple blog for yourself. 
+Use this app as a simple blog for yourself. However, overall use was to better understand react hooks. 
 
 ## Tests
 Use "npm start" to run the app and keep an eye out for any errors that may cause it to not work. 
