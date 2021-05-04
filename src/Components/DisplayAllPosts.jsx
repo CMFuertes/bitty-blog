@@ -2,6 +2,10 @@ import React, { useState, useRef } from "react";
 import CreateNewPost from "./CreateNewPost";
 import Post from "./Post";
 import ModifyPost from "./ModifyPost";
+import { fadeInDown } from "react-animations"; 
+import Radium, { StyleRoot } from 'radium'; 
+
+
 const DisplayAllPosts = () => {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
